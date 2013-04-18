@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BrazucasModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BrazucasEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="ANUNCIOS" EntityType="BrazucasModel.ANUNCIOS" />
+    <EntitySet Name="BOLAO" EntityType="BrazucasModel.BOLAO" />
+    <EntitySet Name="CATEGORIAS" EntityType="BrazucasModel.CATEGORIAS" />
+    <EntitySet Name="CIDADE_SEDE" EntityType="BrazucasModel.CIDADE_SEDE" />
+    <EntitySet Name="COMENTARIOS" EntityType="BrazucasModel.COMENTARIOS" />
+    <EntitySet Name="ESTADO_JOGOS" EntityType="BrazucasModel.ESTADO_JOGOS" />
+    <EntitySet Name="FASE_JOGOS" EntityType="BrazucasModel.FASE_JOGOS" />
+    <EntitySet Name="JOGOS" EntityType="BrazucasModel.JOGOS" />
+    <EntitySet Name="NOTICIAS" EntityType="BrazucasModel.NOTICIAS" />
+    <EntitySet Name="PONTUACAO" EntityType="BrazucasModel.PONTUACAO" />
+    <EntitySet Name="POSTOSVENDAS" EntityType="BrazucasModel.POSTOSVENDAS" />
+    <EntitySet Name="RANKING" EntityType="BrazucasModel.RANKING" />
+    <EntitySet Name="SELECOES" EntityType="BrazucasModel.SELECOES" />
+    <EntitySet Name="TIPO_USUARIOS" EntityType="BrazucasModel.TIPO_USUARIOS" />
+    <EntitySet Name="USUARIOS" EntityType="BrazucasModel.USUARIOS" />
+    <AssociationSet Name="FK_ANUNCIOS_REFERENCE_CATEGORI" Association="BrazucasModel.FK_ANUNCIOS_REFERENCE_CATEGORI">
+      <End Role="CATEGORIAS" EntitySet="CATEGORIAS" />
+      <End Role="ANUNCIOS" EntitySet="ANUNCIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ANUNCIOS_REFERENCE_CIDADE_S" Association="BrazucasModel.FK_ANUNCIOS_REFERENCE_CIDADE_S">
+      <End Role="CIDADE_SEDE" EntitySet="CIDADE_SEDE" />
+      <End Role="ANUNCIOS" EntitySet="ANUNCIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ANUNCIOS_REFERENCE_USUARIOS" Association="BrazucasModel.FK_ANUNCIOS_REFERENCE_USUARIOS">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="ANUNCIOS" EntitySet="ANUNCIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLAO_REFERENCE_JOGOS" Association="BrazucasModel.FK_BOLAO_REFERENCE_JOGOS">
+      <End Role="JOGOS" EntitySet="JOGOS" />
+      <End Role="BOLAO" EntitySet="BOLAO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOLAO_REFERENCE_USUARIOS" Association="BrazucasModel.FK_BOLAO_REFERENCE_USUARIOS">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="BOLAO" EntitySet="BOLAO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NOTICIAS_REFERENCE_CATEGORI" Association="BrazucasModel.FK_NOTICIAS_REFERENCE_CATEGORI">
+      <End Role="CATEGORIAS" EntitySet="CATEGORIAS" />
+      <End Role="NOTICIAS" EntitySet="NOTICIAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JOGOS_REFERENCE_CIDADE_S" Association="BrazucasModel.FK_JOGOS_REFERENCE_CIDADE_S">
+      <End Role="CIDADE_SEDE" EntitySet="CIDADE_SEDE" />
+      <End Role="JOGOS" EntitySet="JOGOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_POSTOSVE_REFERENCE_CIDADE_S" Association="BrazucasModel.FK_POSTOSVE_REFERENCE_CIDADE_S">
+      <End Role="CIDADE_SEDE" EntitySet="CIDADE_SEDE" />
+      <End Role="POSTOSVENDAS" EntitySet="POSTOSVENDAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMENTAR_REFERENCE_NOTICIAS" Association="BrazucasModel.FK_COMENTAR_REFERENCE_NOTICIAS">
+      <End Role="NOTICIAS" EntitySet="NOTICIAS" />
+      <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMENTAR_REFERENCE_USUARIOS" Association="BrazucasModel.FK_COMENTAR_REFERENCE_USUARIOS">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="COMENTARIOS" EntitySet="COMENTARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JOGOS_REFERENCE_ESTADO_J" Association="BrazucasModel.FK_JOGOS_REFERENCE_ESTADO_J">
+      <End Role="ESTADO_JOGOS" EntitySet="ESTADO_JOGOS" />
+      <End Role="JOGOS" EntitySet="JOGOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JOGOS_REFERENCE_FASE_JOG" Association="BrazucasModel.FK_JOGOS_REFERENCE_FASE_JOG">
+      <End Role="FASE_JOGOS" EntitySet="FASE_JOGOS" />
+      <End Role="JOGOS" EntitySet="JOGOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NOTICIAS_REFERENCE_USUARIOS" Association="BrazucasModel.FK_NOTICIAS_REFERENCE_USUARIOS">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="NOTICIAS" EntitySet="NOTICIAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RANKING_REFERENCE_PONTUACA" Association="BrazucasModel.FK_RANKING_REFERENCE_PONTUACA">
+      <End Role="PONTUACAO" EntitySet="PONTUACAO" />
+      <End Role="RANKING" EntitySet="RANKING" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RANKING_REFERENCE_USUARIOS" Association="BrazucasModel.FK_RANKING_REFERENCE_USUARIOS">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="RANKING" EntitySet="RANKING" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIOS_REFERENCE_TIPO_USU" Association="BrazucasModel.FK_USUARIOS_REFERENCE_TIPO_USU">
+      <End Role="TIPO_USUARIOS" EntitySet="TIPO_USUARIOS" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <EntitySet Name="RODADA" EntityType="BrazucasModel.RODADA" />
+    <AssociationSet Name="FK_BOLAO_REFERENCE_RODADA" Association="BrazucasModel.FK_BOLAO_REFERENCE_RODADA">
+      <End Role="RODADA" EntitySet="RODADA" />
+      <End Role="BOLAO" EntitySet="BOLAO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RODADA_REFERENCE_FASE_JOG" Association="BrazucasModel.FK_RODADA_REFERENCE_FASE_JOG">
+      <End Role="FASE_JOGOS" EntitySet="FASE_JOGOS" />
+      <End Role="RODADA" EntitySet="RODADA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RANKING_REFERENCE_RODADA" Association="BrazucasModel.FK_RANKING_REFERENCE_RODADA">
+      <End Role="RODADA" EntitySet="RODADA" />
+      <End Role="RANKING" EntitySet="RANKING" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ANUNCIOS">
+    <Key>
+      <PropertyRef Name="CODANUN" />
+    </Key>
+    <Property Name="CODANUN" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CODUSU" Type="Int32" />
+    <Property Name="CODCAT" Type="Int32" />
+    <Property Name="CODCID" Type="Int32" />
+    <Property Name="TITULOANUN" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DCRANUN" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="IMAGEANUN" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DATPOSANUN" Type="DateTime" Precision="0" />
+    <Property Name="DATFIMANUN" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="CATEGORIAS" Relationship="BrazucasModel.FK_ANUNCIOS_REFERENCE_CATEGORI" FromRole="ANUNCIOS" ToRole="CATEGORIAS" />
+    <NavigationProperty Name="CIDADE_SEDE" Relationship="BrazucasModel.FK_ANUNCIOS_REFERENCE_CIDADE_S" FromRole="ANUNCIOS" ToRole="CIDADE_SEDE" />
+    <NavigationProperty Name="USUARIOS" Relationship="BrazucasModel.FK_ANUNCIOS_REFERENCE_USUARIOS" FromRole="ANUNCIOS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="BOLAO">
+    <Key>
+      <PropertyRef Name="CODRODADA" />
+    </Key>
+    <Property Name="CODRODADA" Type="Int32" Nullable="false" />
+    <Property Name="CODJOGO" Type="Int32" />
+    <Property Name="CODUSU" Type="Int32" />
+    <Property Name="VENCJOGO" Type="Int32" />
+    <Property Name="DATAPOSTA" Type="DateTime" Precision="0" />
+    <Property Name="PLACAR_A" Type="Int32" />
+    <Property Name="PLACAR_B" Type="Int32" />
+    <NavigationProperty Name="JOGOS" Relationship="BrazucasModel.FK_BOLAO_REFERENCE_JOGOS" FromRole="BOLAO" ToRole="JOGOS" />
+    <NavigationProperty Name="USUARIOS" Relationship="BrazucasModel.FK_BOLAO_REFERENCE_USUARIOS" FromRole="BOLAO" ToRole="USUARIOS" />
+    <NavigationProperty Name="RODADA" Relationship="BrazucasModel.FK_BOLAO_REFERENCE_RODADA" FromRole="BOLAO" ToRole="RODADA" />
+  </EntityType>
+  <EntityType Name="CATEGORIAS">
+    <Key>
+      <PropertyRef Name="CODCAT" />
+    </Key>
+    <Property Name="CODCAT" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DCRCAT" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="ANUNCIOS" Relationship="BrazucasModel.FK_ANUNCIOS_REFERENCE_CATEGORI" FromRole="CATEGORIAS" ToRole="ANUNCIOS" />
+    <NavigationProperty Name="NOTICIAS" Relationship="BrazucasModel.FK_NOTICIAS_REFERENCE_CATEGORI" FromRole="CATEGORIAS" ToRole="NOTICIAS" />
+  </EntityType>
+  <EntityType Name="CIDADE_SEDE">
+    <Key>
+      <PropertyRef Name="CODCID" />
+    </Key>
+    <Property Name="CODCID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMCID" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="HISTORIA" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="ANUNCIOS" Relationship="BrazucasModel.FK_ANUNCIOS_REFERENCE_CIDADE_S" FromRole="CIDADE_SEDE" ToRole="ANUNCIOS" />
+    <NavigationProperty Name="JOGOS" Relationship="BrazucasModel.FK_JOGOS_REFERENCE_CIDADE_S" FromRole="CIDADE_SEDE" ToRole="JOGOS" />
+    <NavigationProperty Name="POSTOSVENDAS" Relationship="BrazucasModel.FK_POSTOSVE_REFERENCE_CIDADE_S" FromRole="CIDADE_SEDE" ToRole="POSTOSVENDAS" />
+  </EntityType>
+  <EntityType Name="COMENTARIOS">
+    <Key>
+      <PropertyRef Name="CODCOM" />
+    </Key>
+    <Property Name="CODCOM" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CODUSU" Type="Int32" />
+    <Property Name="CODNOT" Type="Int32" />
+    <Property Name="DCRCOM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DATCOM" Type="DateTime" Precision="0" />
+    <Property Name="SITUACOM" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="NOTICIAS" Relationship="BrazucasModel.FK_COMENTAR_REFERENCE_NOTICIAS" FromRole="COMENTARIOS" ToRole="NOTICIAS" />
+    <NavigationProperty Name="USUARIOS" Relationship="BrazucasModel.FK_COMENTAR_REFERENCE_USUARIOS" FromRole="COMENTARIOS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="ESTADO_JOGOS">
+    <Key>
+      <PropertyRef Name="CODESTADO" />
+    </Key>
+    <Property Name="CODESTADO" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DCRESTADO" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="JOGOS" Relationship="BrazucasModel.FK_JOGOS_REFERENCE_ESTADO_J" FromRole="ESTADO_JOGOS" ToRole="JOGOS" />
+  </EntityType>
+  <EntityType Name="FASE_JOGOS">
+    <Key>
+      <PropertyRef Name="CODFASE" />
+    </Key>
+    <Property Name="CODFASE" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DCRFASE" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="JOGOS" Relationship="BrazucasModel.FK_JOGOS_REFERENCE_FASE_JOG" FromRole="FASE_JOGOS" ToRole="JOGOS" />
+    <NavigationProperty Name="RODADA" Relationship="BrazucasModel.FK_RODADA_REFERENCE_FASE_JOG" FromRole="FASE_JOGOS" ToRole="RODADA" />
+  </EntityType>
+  <EntityType Name="JOGOS">
+    <Key>
+      <PropertyRef Name="CODJOGO" />
+    </Key>
+    <Property Name="CODJOGO" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CODFASE" Type="Int32" />
+    <Property Name="CODESTADO" Type="Int32" />
+    <Property Name="CODCID" Type="Int32" />
+    <Property Name="SELECAO_A" Type="Int32" />
+    <Property Name="SELECAO_B" Type="Int32" />
+    <Property Name="DATJOGO" Type="DateTime" Precision="0" />
+    <Property Name="VENCJOGO" Type="Int32" />
+    <Property Name="PLACAR_A" Type="Int32" />
+    <Property Name="PLACAR_B" Type="Int32" />
+    <NavigationProperty Name="BOLAO" Relationship="BrazucasModel.FK_BOLAO_REFERENCE_JOGOS" FromRole="JOGOS" ToRole="BOLAO" />
+    <NavigationProperty Name="CIDADE_SEDE" Relationship="BrazucasModel.FK_JOGOS_REFERENCE_CIDADE_S" FromRole="JOGOS" ToRole="CIDADE_SEDE" />
+    <NavigationProperty Name="ESTADO_JOGOS" Relationship="BrazucasModel.FK_JOGOS_REFERENCE_ESTADO_J" FromRole="JOGOS" ToRole="ESTADO_JOGOS" />
+    <NavigationProperty Name="FASE_JOGOS" Relationship="BrazucasModel.FK_JOGOS_REFERENCE_FASE_JOG" FromRole="JOGOS" ToRole="FASE_JOGOS" />
+  </EntityType>
+  <EntityType Name="NOTICIAS">
+    <Key>
+      <PropertyRef Name="CODNOT" />
+    </Key>
+    <Property Name="CODNOT" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CODUSU" Type="Int32" />
+    <Property Name="CODCAT" Type="Int32" />
+    <Property Name="TITULONOT" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DCRNOT" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="IMAGENOT" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DATPOSNOT" Type="DateTime" Precision="0" />
+    <Property Name="DATFIMNOT" Type="DateTime" Precision="0" />
+    <Property Name="SITUANOT" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="CATEGORIAS" Relationship="BrazucasModel.FK_NOTICIAS_REFERENCE_CATEGORI" FromRole="NOTICIAS" ToRole="CATEGORIAS" />
+    <NavigationProperty Name="COMENTARIOS" Relationship="BrazucasModel.FK_COMENTAR_REFERENCE_NOTICIAS" FromRole="NOTICIAS" ToRole="COMENTARIOS" />
+    <NavigationProperty Name="USUARIOS" Relationship="BrazucasModel.FK_NOTICIAS_REFERENCE_USUARIOS" FromRole="NOTICIAS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="PONTUACAO">
+    <Key>
+      <PropertyRef Name="CODPONT" />
+    </Key>
+    <Property Name="CODPONT" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DCRPONT" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="RANKING" Relationship="BrazucasModel.FK_RANKING_REFERENCE_PONTUACA" FromRole="PONTUACAO" ToRole="RANKING" />
+  </EntityType>
+  <EntityType Name="POSTOSVENDAS">
+    <Key>
+      <PropertyRef Name="CODPOS" />
+    </Key>
+    <Property Name="CODPOS" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ENDPOS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="CODCID" Type="Int32" />
+    <NavigationProperty Name="CIDADE_SEDE" Relationship="BrazucasModel.FK_POSTOSVE_REFERENCE_CIDADE_S" FromRole="POSTOSVENDAS" ToRole="CIDADE_SEDE" />
+  </EntityType>
+  <EntityType Name="RANKING">
+    <Key>
+      <PropertyRef Name="CODRAN" />
+    </Key>
+    <Property Name="CODRAN" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CODUSU" Type="Int32" />
+    <Property Name="CODRODADA" Type="Int32" />
+    <Property Name="CODPONT" Type="Int32" />
+    <NavigationProperty Name="PONTUACAO" Relationship="BrazucasModel.FK_RANKING_REFERENCE_PONTUACA" FromRole="RANKING" ToRole="PONTUACAO" />
+    <NavigationProperty Name="USUARIOS" Relationship="BrazucasModel.FK_RANKING_REFERENCE_USUARIOS" FromRole="RANKING" ToRole="USUARIOS" />
+    <NavigationProperty Name="RODADA" Relationship="BrazucasModel.FK_RANKING_REFERENCE_RODADA" FromRole="RANKING" ToRole="RODADA" />
+  </EntityType>
+  <EntityType Name="SELECOES">
+    <Key>
+      <PropertyRef Name="CODSELE" />
+    </Key>
+    <Property Name="CODSELE" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMSELE" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="NUMTITSELE" Type="Int32" />
+    <Property Name="HISTORIA" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ESCUDOSELE" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TIPO_USUARIOS">
+    <Key>
+      <PropertyRef Name="CODTIPUSU" />
+    </Key>
+    <Property Name="CODTIPUSU" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DCRTIPUSU" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="USUARIOS" Relationship="BrazucasModel.FK_USUARIOS_REFERENCE_TIPO_USU" FromRole="TIPO_USUARIOS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="CODUSU" />
+    </Key>
+    <Property Name="CODUSU" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CODTIPUSU" Type="Int32" />
+    <Property Name="NOMUSU" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="EMAILUSU" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SEXUSU" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="DATNASCUSU" Type="DateTime" Precision="0" />
+    <Property Name="LOGINUSU" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SENHAUSU" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="CPFCNPJUSU" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="TELUSU" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="ANUNCIOS" Relationship="BrazucasModel.FK_ANUNCIOS_REFERENCE_USUARIOS" FromRole="USUARIOS" ToRole="ANUNCIOS" />
+    <NavigationProperty Name="BOLAO" Relationship="BrazucasModel.FK_BOLAO_REFERENCE_USUARIOS" FromRole="USUARIOS" ToRole="BOLAO" />
+    <NavigationProperty Name="COMENTARIOS" Relationship="BrazucasModel.FK_COMENTAR_REFERENCE_USUARIOS" FromRole="USUARIOS" ToRole="COMENTARIOS" />
+    <NavigationProperty Name="NOTICIAS" Relationship="BrazucasModel.FK_NOTICIAS_REFERENCE_USUARIOS" FromRole="USUARIOS" ToRole="NOTICIAS" />
+    <NavigationProperty Name="RANKING" Relationship="BrazucasModel.FK_RANKING_REFERENCE_USUARIOS" FromRole="USUARIOS" ToRole="RANKING" />
+    <NavigationProperty Name="TIPO_USUARIOS" Relationship="BrazucasModel.FK_USUARIOS_REFERENCE_TIPO_USU" FromRole="USUARIOS" ToRole="TIPO_USUARIOS" />
+  </EntityType>
+  <Association Name="FK_ANUNCIOS_REFERENCE_CATEGORI">
+    <End Role="CATEGORIAS" Type="BrazucasModel.CATEGORIAS" Multiplicity="0..1" />
+    <End Role="ANUNCIOS" Type="BrazucasModel.ANUNCIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIAS">
+        <PropertyRef Name="CODCAT" />
+      </Principal>
+      <Dependent Role="ANUNCIOS">
+        <PropertyRef Name="CODCAT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ANUNCIOS_REFERENCE_CIDADE_S">
+    <End Role="CIDADE_SEDE" Type="BrazucasModel.CIDADE_SEDE" Multiplicity="0..1" />
+    <End Role="ANUNCIOS" Type="BrazucasModel.ANUNCIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIDADE_SEDE">
+        <PropertyRef Name="CODCID" />
+      </Principal>
+      <Dependent Role="ANUNCIOS">
+        <PropertyRef Name="CODCID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ANUNCIOS_REFERENCE_USUARIOS">
+    <End Role="USUARIOS" Type="BrazucasModel.USUARIOS" Multiplicity="0..1" />
+    <End Role="ANUNCIOS" Type="BrazucasModel.ANUNCIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="CODUSU" />
+      </Principal>
+      <Dependent Role="ANUNCIOS">
+        <PropertyRef Name="CODUSU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLAO_REFERENCE_JOGOS">
+    <End Role="JOGOS" Type="BrazucasModel.JOGOS" Multiplicity="0..1" />
+    <End Role="BOLAO" Type="BrazucasModel.BOLAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JOGOS">
+        <PropertyRef Name="CODJOGO" />
+      </Principal>
+      <Dependent Role="BOLAO">
+        <PropertyRef Name="CODJOGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOLAO_REFERENCE_USUARIOS">
+    <End Role="USUARIOS" Type="BrazucasModel.USUARIOS" Multiplicity="0..1" />
+    <End Role="BOLAO" Type="BrazucasModel.BOLAO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="CODUSU" />
+      </Principal>
+      <Dependent Role="BOLAO">
+        <PropertyRef Name="CODUSU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NOTICIAS_REFERENCE_CATEGORI">
+    <End Role="CATEGORIAS" Type="BrazucasModel.CATEGORIAS" Multiplicity="0..1" />
+    <End Role="NOTICIAS" Type="BrazucasModel.NOTICIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIAS">
+        <PropertyRef Name="CODCAT" />
+      </Principal>
+      <Dependent Role="NOTICIAS">
+        <PropertyRef Name="CODCAT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JOGOS_REFERENCE_CIDADE_S">
+    <End Role="CIDADE_SEDE" Type="BrazucasModel.CIDADE_SEDE" Multiplicity="0..1" />
+    <End Role="JOGOS" Type="BrazucasModel.JOGOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIDADE_SEDE">
+        <PropertyRef Name="CODCID" />
+      </Principal>
+      <Dependent Role="JOGOS">
+        <PropertyRef Name="CODCID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_POSTOSVE_REFERENCE_CIDADE_S">
+    <End Role="CIDADE_SEDE" Type="BrazucasModel.CIDADE_SEDE" Multiplicity="0..1" />
+    <End Role="POSTOSVENDAS" Type="BrazucasModel.POSTOSVENDAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIDADE_SEDE">
+        <PropertyRef Name="CODCID" />
+      </Principal>
+      <Dependent Role="POSTOSVENDAS">
+        <PropertyRef Name="CODCID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMENTAR_REFERENCE_NOTICIAS">
+    <End Role="NOTICIAS" Type="BrazucasModel.NOTICIAS" Multiplicity="0..1" />
+    <End Role="COMENTARIOS" Type="BrazucasModel.COMENTARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NOTICIAS">
+        <PropertyRef Name="CODNOT" />
+      </Principal>
+      <Dependent Role="COMENTARIOS">
+        <PropertyRef Name="CODNOT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMENTAR_REFERENCE_USUARIOS">
+    <End Role="USUARIOS" Type="BrazucasModel.USUARIOS" Multiplicity="0..1" />
+    <End Role="COMENTARIOS" Type="BrazucasModel.COMENTARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="CODUSU" />
+      </Principal>
+      <Dependent Role="COMENTARIOS">
+        <PropertyRef Name="CODUSU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JOGOS_REFERENCE_ESTADO_J">
+    <End Role="ESTADO_JOGOS" Type="BrazucasModel.ESTADO_JOGOS" Multiplicity="0..1" />
+    <End Role="JOGOS" Type="BrazucasModel.JOGOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_JOGOS">
+        <PropertyRef Name="CODESTADO" />
+      </Principal>
+      <Dependent Role="JOGOS">
+        <PropertyRef Name="CODESTADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JOGOS_REFERENCE_FASE_JOG">
+    <End Role="FASE_JOGOS" Type="BrazucasModel.FASE_JOGOS" Multiplicity="0..1" />
+    <End Role="JOGOS" Type="BrazucasModel.JOGOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FASE_JOGOS">
+        <PropertyRef Name="CODFASE" />
+      </Principal>
+      <Dependent Role="JOGOS">
+        <PropertyRef Name="CODFASE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NOTICIAS_REFERENCE_USUARIOS">
+    <End Role="USUARIOS" Type="BrazucasModel.USUARIOS" Multiplicity="0..1" />
+    <End Role="NOTICIAS" Type="BrazucasModel.NOTICIAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="CODUSU" />
+      </Principal>
+      <Dependent Role="NOTICIAS">
+        <PropertyRef Name="CODUSU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RANKING_REFERENCE_PONTUACA">
+    <End Role="PONTUACAO" Type="BrazucasModel.PONTUACAO" Multiplicity="0..1" />
+    <End Role="RANKING" Type="BrazucasModel.RANKING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PONTUACAO">
+        <PropertyRef Name="CODPONT" />
+      </Principal>
+      <Dependent Role="RANKING">
+        <PropertyRef Name="CODPONT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RANKING_REFERENCE_USUARIOS">
+    <End Role="USUARIOS" Type="BrazucasModel.USUARIOS" Multiplicity="0..1" />
+    <End Role="RANKING" Type="BrazucasModel.RANKING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="CODUSU" />
+      </Principal>
+      <Dependent Role="RANKING">
+        <PropertyRef Name="CODUSU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIOS_REFERENCE_TIPO_USU">
+    <End Role="TIPO_USUARIOS" Type="BrazucasModel.TIPO_USUARIOS" Multiplicity="0..1" />
+    <End Role="USUARIOS" Type="BrazucasModel.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_USUARIOS">
+        <PropertyRef Name="CODTIPUSU" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="CODTIPUSU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="RODADA">
+    <Key>
+      <PropertyRef Name="CODRODADA" />
+    </Key>
+    <Property Type="Int32" Name="CODRODADA" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="CODFASE" />
+    <NavigationProperty Name="BOLAO" Relationship="BrazucasModel.FK_BOLAO_REFERENCE_RODADA" FromRole="RODADA" ToRole="BOLAO" />
+    <NavigationProperty Name="FASE_JOGOS" Relationship="BrazucasModel.FK_RODADA_REFERENCE_FASE_JOG" FromRole="RODADA" ToRole="FASE_JOGOS" />
+    <NavigationProperty Name="RANKING" Relationship="BrazucasModel.FK_RANKING_REFERENCE_RODADA" FromRole="RODADA" ToRole="RANKING" />
+  </EntityType>
+  <Association Name="FK_BOLAO_REFERENCE_RODADA">
+    <End Type="BrazucasModel.RODADA" Role="RODADA" Multiplicity="1" />
+    <End Type="BrazucasModel.BOLAO" Role="BOLAO" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="RODADA">
+        <PropertyRef Name="CODRODADA" />
+      </Principal>
+      <Dependent Role="BOLAO">
+        <PropertyRef Name="CODRODADA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RODADA_REFERENCE_FASE_JOG">
+    <End Type="BrazucasModel.FASE_JOGOS" Role="FASE_JOGOS" Multiplicity="0..1" />
+    <End Type="BrazucasModel.RODADA" Role="RODADA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FASE_JOGOS">
+        <PropertyRef Name="CODFASE" />
+      </Principal>
+      <Dependent Role="RODADA">
+        <PropertyRef Name="CODFASE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RANKING_REFERENCE_RODADA">
+    <End Type="BrazucasModel.RODADA" Role="RODADA" Multiplicity="0..1" />
+    <End Type="BrazucasModel.RANKING" Role="RANKING" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RODADA">
+        <PropertyRef Name="CODRODADA" />
+      </Principal>
+      <Dependent Role="RANKING">
+        <PropertyRef Name="CODRODADA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

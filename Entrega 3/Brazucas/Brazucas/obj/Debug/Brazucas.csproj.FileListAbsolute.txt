@@ -1,0 +1,245 @@
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Brazucas.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Brazucas.pdb
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Antlr3.Runtime.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\EntityFramework.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Newtonsoft.Json.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Net.Http.Formatting.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Helpers.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.WebHost.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Mvc.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Optimization.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Razor.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\WebGrease.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.Data.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.WebData.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\EntityFramework.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Newtonsoft.Json.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Net.Http.Formatting.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Helpers.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.WebHost.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Mvc.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Razor.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.Data.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.WebData.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\obj\Debug\Brazucas.dll
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\obj\Debug\Brazucas.pdb
+C:\Users\Eduardo\documents\visual studio 2012\Projects\Brazucas\Brazucas\obj\Debug\Brazucas.csprojResolveAssemblyReference.cache
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Brazucas.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Brazucas.pdb
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Antlr3.Runtime.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\EntityFramework.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Newtonsoft.Json.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Net.Http.Formatting.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Helpers.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Http.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Http.WebHost.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Mvc.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Optimization.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Razor.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.WebPages.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\WebGrease.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\WebMatrix.Data.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\WebMatrix.WebData.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\EntityFramework.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Newtonsoft.Json.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Net.Http.Formatting.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Helpers.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Http.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Http.WebHost.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Mvc.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.Razor.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.WebPages.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\WebMatrix.Data.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\WebMatrix.WebData.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\obj\Debug\Brazucas.csprojResolveAssemblyReference.cache
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\obj\Debug\Brazucas.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Projeto\Brazucas\Brazucas\obj\Debug\Brazucas.pdb
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Brazucas.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Brazucas.pdb
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Antlr3.Runtime.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\EntityFramework.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Newtonsoft.Json.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Net.Http.Formatting.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Helpers.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.WebHost.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Mvc.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Optimization.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Razor.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\WebGrease.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.Data.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.WebData.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\EntityFramework.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Newtonsoft.Json.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Net.Http.Formatting.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Helpers.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Http.WebHost.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Mvc.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.Razor.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.Data.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\WebMatrix.WebData.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\obj\Debug\Brazucas.dll
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\obj\Debug\Brazucas.pdb
+C:\Users\eduardo.dias\Documents\Visual Studio 2012\Projects\Brazucas\Brazucas\obj\Debug\Brazucas.csprojResolveAssemblyReference.cache
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Brazucas.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Brazucas.pdb
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Antlr3.Runtime.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\EntityFramework.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Newtonsoft.Json.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Net.Http.Formatting.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Helpers.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Http.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Http.WebHost.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Mvc.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Optimization.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Razor.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.WebPages.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\WebGrease.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\WebMatrix.Data.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\WebMatrix.WebData.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\EntityFramework.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Newtonsoft.Json.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Net.Http.Formatting.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Helpers.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Http.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Http.WebHost.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Mvc.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.Razor.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.WebPages.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\WebMatrix.Data.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\WebMatrix.WebData.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\obj\Debug\Brazucas.csprojResolveAssemblyReference.cache
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\obj\Debug\Brazucas.dll
+C:\Users\ThiagO\Documents\Facul\6º periodo\Laboratório de Desenvolvimento de Sistemas\Terceira Entrega\Brazucas\Brazucas\obj\Debug\Brazucas.pdb
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Brazucas.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Brazucas.pdb
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Antlr3.Runtime.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\EntityFramework.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Newtonsoft.Json.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Net.Http.Formatting.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Helpers.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Http.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Http.WebHost.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Mvc.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Optimization.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Razor.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.WebPages.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\WebGrease.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\WebMatrix.Data.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\WebMatrix.WebData.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\EntityFramework.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Newtonsoft.Json.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Net.Http.Formatting.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Helpers.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Http.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Http.WebHost.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Mvc.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.Razor.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.WebPages.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\System.Web.WebPages.Razor.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\WebMatrix.Data.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\WebMatrix.WebData.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.Core.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\obj\Debug\Brazucas.csprojResolveAssemblyReference.cache
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\obj\Debug\Brazucas.dll
+C:\Users\ThiagO\Desktop\3 entrega\Brazucas\Brazucas\obj\Debug\Brazucas.pdb
