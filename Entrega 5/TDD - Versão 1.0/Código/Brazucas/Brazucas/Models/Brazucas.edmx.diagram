@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f5b8b4747ea4400972cd74e5afaf68c" Name="Diagram1">
+        <EntityTypeShape EntityType="BrazucasModel.ANUNCIOS" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.BOLAO" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.CATEGORIAS" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.CIDADE_SEDE" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.COMENTARIOS" Width="1.5" PointX="11.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.ESTADO_JOGOS" Width="1.5" PointX="3.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.FASE_JOGOS" Width="1.5" PointX="3.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.JOGOS" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.NOTICIAS" Width="1.5" PointX="9" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.PONTUACAO" Width="1.5" PointX="6" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.POSTOSVENDAS" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.RANKING" Width="1.5" PointX="8.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.RODADA" Width="1.5" PointX="6" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.SELECOES" Width="1.5" PointX="3.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.TIPO_USUARIOS" Width="1.5" PointX="1.5" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BrazucasModel.USUARIOS" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="BrazucasModel.FK_ANUNCIOS_REFERENCE_CATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_ANUNCIOS_REFERENCE_CIDADE_S" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_ANUNCIOS_REFERENCE_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_BOLAO_REFERENCE_JOGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_BOLAO_REFERENCE_RODADA" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_BOLAO_REFERENCE_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_NOTICIAS_REFERENCE_CATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_JOGOS_REFERENCE_CIDADE_S" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_POSTOSVE_REFERENCE_CIDADE_S" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_COMENTAR_REFERENCE_NOTICIAS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_COMENTAR_REFERENCE_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_JOGOS_REFERENCE_ESTADO_J" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_JOGOS_REFERENCE_FASE_JOG" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_RODADA_REFERENCE_FASE_JOG" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_JOGOS_JOGOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_JOGOS_SELECOESA" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_JOGOS_SELECOESB" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_NOTICIAS_REFERENCE_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_RANKING_REFERENCE_PONTUACA" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_RANKING_REFERENCE_RODADA" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_RANKING_REFERENCE_USUARIOS" ManuallyRouted="false" />
+        <AssociationConnector Association="BrazucasModel.FK_USUARIOS_REFERENCE_TIPO_USU" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
