@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link href="<%: Url.Content("~/favicon.ico") %>" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <%: Styles.Render("~/Content/css") %>
+    <%: Scripts.Render("~/bundles/modernizr") %>
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <asp:Image ID="Image1" ImageUrl="../../Images/copa_2014_alterada.jpg" runat="server" Height="100" />
+            </div>
+            <div class="float-right">
+                <section id="login">
+                    <%: Html.ActionLink("Registre-se", "Create", "Usuario") %>
+                    <%: Html.ActionLink("Login", "Acesso", "Usuario") %>
+                </section>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <section class="featured">
+            <div class="content-wrapper">
+                <nav>                    
+                    <ul id="menu">
+                        <li>| <%: Html.ActionLink("Inicio", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Notícia", "Visualizar", "Noticia") %></li>
+                        <li>| <%: Html.ActionLink("Ranking", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Cidade Sede", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Ingressos", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Tabela de Jogos", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Seleções", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Bolão", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Anúncios", "Index", "Home") %></li>
+                        <li>| <%: Html.ActionLink("Gerenciar", "Administrador", "Home") %> |</li>
+                    </ul>                    
+                </nav>
+            </div>
+            <div id="FeaturedContent" runat="server">
+                <div class="content-wrapper">
+                    <hgroup class="title">
+                        <asp:Image ImageUrl="../../Images/band.jpg" runat="server" Height="43px" Width="960px" />
+                    </hgroup>
+                </div>
+            </div>
+        </section>
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; <%: DateTime.Now.Year %> - Portal da Copa do Mundo no Brasil</p>
+            </div>
+        </div>
+    </footer>
+
+    <%: Scripts.Render("~/bundles/jquery") %>
+    <asp:ContentPlaceHolder ID="ScriptsSection" runat="server" />
+</body>
+</html>

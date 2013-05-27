@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BrazucasModelStoreContainer" CdmEntityContainer="BrazucasEntities">
+    <EntitySetMapping Name="ANUNCIOS">
+      <EntityTypeMapping TypeName="BrazucasModel.ANUNCIOS">
+        <MappingFragment StoreEntitySet="ANUNCIOS">
+          <ScalarProperty Name="CODANUN" ColumnName="CODANUN" />
+          <ScalarProperty Name="CODUSU" ColumnName="CODUSU" />
+          <ScalarProperty Name="CODCAT" ColumnName="CODCAT" />
+          <ScalarProperty Name="CODCID" ColumnName="CODCID" />
+          <ScalarProperty Name="TITULOANUN" ColumnName="TITULOANUN" />
+          <ScalarProperty Name="DCRANUN" ColumnName="DCRANUN" />
+          <ScalarProperty Name="IMAGEANUN" ColumnName="IMAGEANUN" />
+          <ScalarProperty Name="DATPOSANUN" ColumnName="DATPOSANUN" />
+          <ScalarProperty Name="DATFIMANUN" ColumnName="DATFIMANUN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOLAO">
+      <EntityTypeMapping TypeName="BrazucasModel.BOLAO">
+        <MappingFragment StoreEntitySet="BOLAO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CODRODADA" ColumnName="CODRODADA" />
+          <ScalarProperty Name="CODJOGO" ColumnName="CODJOGO" />
+          <ScalarProperty Name="CODUSU" ColumnName="CODUSU" />
+          <ScalarProperty Name="VENCJOGO" ColumnName="VENCJOGO" />
+          <ScalarProperty Name="DATAPOSTA" ColumnName="DATAPOSTA" />
+          <ScalarProperty Name="PLACAR_A" ColumnName="PLACAR_A" />
+          <ScalarProperty Name="PLACAR_B" ColumnName="PLACAR_B" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CATEGORIAS">
+      <EntityTypeMapping TypeName="BrazucasModel.CATEGORIAS">
+        <MappingFragment StoreEntitySet="CATEGORIAS">
+          <ScalarProperty Name="CODCAT" ColumnName="CODCAT" />
+          <ScalarProperty Name="DCRCAT" ColumnName="DCRCAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CIDADE_SEDE">
+      <EntityTypeMapping TypeName="BrazucasModel.CIDADE_SEDE">
+        <MappingFragment StoreEntitySet="CIDADE_SEDE">
+          <ScalarProperty Name="CODCID" ColumnName="CODCID" />
+          <ScalarProperty Name="NOMCID" ColumnName="NOMCID" />
+          <ScalarProperty Name="HISTORIA" ColumnName="HISTORIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMENTARIOS">
+      <EntityTypeMapping TypeName="BrazucasModel.COMENTARIOS">
+        <MappingFragment StoreEntitySet="COMENTARIOS">
+          <ScalarProperty Name="CODCOM" ColumnName="CODCOM" />
+          <ScalarProperty Name="CODUSU" ColumnName="CODUSU" />
+          <ScalarProperty Name="CODNOT" ColumnName="CODNOT" />
+          <ScalarProperty Name="DCRCOM" ColumnName="DCRCOM" />
+          <ScalarProperty Name="DATCOM" ColumnName="DATCOM" />
+          <ScalarProperty Name="SITUACOM" ColumnName="SITUACOM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO_JOGOS">
+      <EntityTypeMapping TypeName="BrazucasModel.ESTADO_JOGOS">
+        <MappingFragment StoreEntitySet="ESTADO_JOGOS">
+          <ScalarProperty Name="CODESTADO" ColumnName="CODESTADO" />
+          <ScalarProperty Name="DCRESTADO" ColumnName="DCRESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FASE_JOGOS">
+      <EntityTypeMapping TypeName="BrazucasModel.FASE_JOGOS">
+        <MappingFragment StoreEntitySet="FASE_JOGOS">
+          <ScalarProperty Name="CODFASE" ColumnName="CODFASE" />
+          <ScalarProperty Name="DCRFASE" ColumnName="DCRFASE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JOGOS">
+      <EntityTypeMapping TypeName="BrazucasModel.JOGOS">
+        <MappingFragment StoreEntitySet="JOGOS">
+          <ScalarProperty Name="CODJOGO" ColumnName="CODJOGO" />
+          <ScalarProperty Name="CODFASE" ColumnName="CODFASE" />
+          <ScalarProperty Name="CODESTADO" ColumnName="CODESTADO" />
+          <ScalarProperty Name="CODCID" ColumnName="CODCID" />
+          <ScalarProperty Name="SELECAO_A" ColumnName="SELECAO_A" />
+          <ScalarProperty Name="SELECAO_B" ColumnName="SELECAO_B" />
+          <ScalarProperty Name="DATJOGO" ColumnName="DATJOGO" />
+          <ScalarProperty Name="VENCJOGO" ColumnName="VENCJOGO" />
+          <ScalarProperty Name="PLACAR_A" ColumnName="PLACAR_A" />
+          <ScalarProperty Name="PLACAR_B" ColumnName="PLACAR_B" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NOTICIAS">
+      <EntityTypeMapping TypeName="BrazucasModel.NOTICIAS">
+        <MappingFragment StoreEntitySet="NOTICIAS">
+          <ScalarProperty Name="CODNOT" ColumnName="CODNOT" />
+          <ScalarProperty Name="CODUSU" ColumnName="CODUSU" />
+          <ScalarProperty Name="CODCAT" ColumnName="CODCAT" />
+          <ScalarProperty Name="TITULONOT" ColumnName="TITULONOT" />
+          <ScalarProperty Name="DCRNOT" ColumnName="DCRNOT" />
+          <ScalarProperty Name="IMAGENOT" ColumnName="IMAGENOT" />
+          <ScalarProperty Name="DATPOSNOT" ColumnName="DATPOSNOT" />
+          <ScalarProperty Name="DATFIMNOT" ColumnName="DATFIMNOT" />
+          <ScalarProperty Name="SITUANOT" ColumnName="SITUANOT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PONTUACAO">
+      <EntityTypeMapping TypeName="BrazucasModel.PONTUACAO">
+        <MappingFragment StoreEntitySet="PONTUACAO">
+          <ScalarProperty Name="CODPONT" ColumnName="CODPONT" />
+          <ScalarProperty Name="DCRPONT" ColumnName="DCRPONT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTOSVENDAS">
+      <EntityTypeMapping TypeName="BrazucasModel.POSTOSVENDAS">
+        <MappingFragment StoreEntitySet="POSTOSVENDAS">
+          <ScalarProperty Name="CODPOS" ColumnName="CODPOS" />
+          <ScalarProperty Name="ENDPOS" ColumnName="ENDPOS" />
+          <ScalarProperty Name="CODCID" ColumnName="CODCID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RANKING">
+      <EntityTypeMapping TypeName="BrazucasModel.RANKING">
+        <MappingFragment StoreEntitySet="RANKING">
+          <ScalarProperty Name="CODRAN" ColumnName="CODRAN" />
+          <ScalarProperty Name="CODUSU" ColumnName="CODUSU" />
+          <ScalarProperty Name="CODRODADA" ColumnName="CODRODADA" />
+          <ScalarProperty Name="CODPONT" ColumnName="CODPONT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RODADA">
+      <EntityTypeMapping TypeName="BrazucasModel.RODADA">
+        <MappingFragment StoreEntitySet="RODADA">
+          <ScalarProperty Name="CODRODADA" ColumnName="CODRODADA" />
+          <ScalarProperty Name="CODFASE" ColumnName="CODFASE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SELECOES">
+      <EntityTypeMapping TypeName="BrazucasModel.SELECOES">
+        <MappingFragment StoreEntitySet="SELECOES">
+          <ScalarProperty Name="CODSELE" ColumnName="CODSELE" />
+          <ScalarProperty Name="NOMSELE" ColumnName="NOMSELE" />
+          <ScalarProperty Name="NUMTITSELE" ColumnName="NUMTITSELE" />
+          <ScalarProperty Name="HISTORIA" ColumnName="HISTORIA" />
+          <ScalarProperty Name="ESCUDOSELE" ColumnName="ESCUDOSELE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_USUARIOS">
+      <EntityTypeMapping TypeName="BrazucasModel.TIPO_USUARIOS">
+        <MappingFragment StoreEntitySet="TIPO_USUARIOS">
+          <ScalarProperty Name="CODTIPUSU" ColumnName="CODTIPUSU" />
+          <ScalarProperty Name="DCRTIPUSU" ColumnName="DCRTIPUSU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="BrazucasModel.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="CODUSU" ColumnName="CODUSU" />
+          <ScalarProperty Name="CODTIPUSU" ColumnName="CODTIPUSU" />
+          <ScalarProperty Name="NOMUSU" ColumnName="NOMUSU" />
+          <ScalarProperty Name="EMAILUSU" ColumnName="EMAILUSU" />
+          <ScalarProperty Name="SEXUSU" ColumnName="SEXUSU" />
+          <ScalarProperty Name="DATNASCUSU" ColumnName="DATNASCUSU" />
+          <ScalarProperty Name="LOGINUSU" ColumnName="LOGINUSU" />
+          <ScalarProperty Name="SENHAUSU" ColumnName="SENHAUSU" />
+          <ScalarProperty Name="CPFCNPJUSU" ColumnName="CPFCNPJUSU" />
+          <ScalarProperty Name="TELUSU" ColumnName="TELUSU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

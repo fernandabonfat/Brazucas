@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <link href="<%: Url.Content("~/favicon.ico") %>" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <script>
+        $(document).ready(function () {
+
+            // aumentando a fonte
+            $(".inc-font").click(function () {
+                var size = $("body").css('font-size');
+
+                size = size.replace('px', '');
+                size = parseInt(size) + 1.4;
+
+                $("body").animate({ 'font-size': size + 'px' });
+            });
+
+            //diminuindo a fonte
+            $(".dec-font").click(function () {
+                var size = $("body").css('font-size');
+
+                size = size.replace('px', '');
+                size = parseInt(size) - 1.4;
+
+                $("body").animate({ 'font-size': size + 'px' });
+            });
+
+            // resetando a fonte
+            $(".res-font").click(function () {
+                $("body").animate({ 'font-size': '14px' });
+            });
+        });
+    </script>
+    <%: Styles.Render("~/Content/css") %>
+    <%: Scripts.Render("~/bundles/modernizr") %>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <asp:Image ID="Image1" ImageUrl="../../Images/copa_2014_alterada.jpg" runat="server" Height="100" />
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        <%: Html.ActionLink("Registre-se", "Create", "Usuario") %>
+                        <%: Html.ActionLink("Login", "Acesso", "Usuario") %>
+                    </section>
+                    <div class="navbar">
+                        <div class="nav nav-pills pull-right">
+                            <a href="#" class="inc-font fonte" title="Aumentar fonte">A+</a>
+                            <a href="#" class="res-font fonte" title="Tamanho normal da fonte">A</a>
+                            <a href="#" class="dec-font fonte" title="Diminuir fonte">A-</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            <section class="featured">
+                <div class="content-wrapper">
+                    <nav>
+                        <ul id="menu">
+                            <li>| <%: Html.ActionLink("Inicio", "Index", "Home") %></li>
+                            <li>| <%: Html.ActionLink("Notícia", "Visualizar", "Noticia") %></li>
+                            <li>| <%: Html.ActionLink("Ranking", "Visualizar", "Ranking") %></li>
+                            <li>| <%: Html.ActionLink("Cidade Sede", "Visualizar", "Cidade") %></li>
+                            <li>| <%: Html.ActionLink("Ingressos", "PostosDeVenda", "PostoVenda") %></li>
+                            <li>| <%: Html.ActionLink("Tabela de Jogos", "TabelaDeJogos", "Jogo") %></li>
+                            <li>| <%: Html.ActionLink("Seleções", "ListaSelecoes", "Selecao") %></li>
+                            <li>| <%: Html.ActionLink("Bolão", "Fase", "Bolao") %></li>
+                            <li>| <%: Html.ActionLink("Anúncios", "Create", "Anuncio") %></li>
+                            <li>| <%: Html.ActionLink("Gerenciar", "Administrador", "Home") %> |</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="FeaturedContent" runat="server">
+                    <div class="content-wrapper">
+                        <hgroup class="title">
+                        </hgroup>
+                        <%--<asp:Image ID="Image2" ImageUrl="../../Images/band.jpg" runat="server" Height="40px" Width="1024px" />--%>
+                        <IMG SRC="../../Images/band.jpg" USEMAP="#band.jpg" WIDTH=1024 HEIGHT=40 BORDER=0>
+                        <MAP NAME="band.jpg">
+                            <AREA SHAPE=RECT COORDS="1,1,60,34" href="../Selecao/Visualiza/3"><!--Argentina-->
+                            <AREA SHAPE=RECT COORDS="68,2,124,35" href="../Selecao/Visualiza/22"><!--Japão-->
+                            <AREA SHAPE=RECT COORDS="132,1,190,34" href="../Selecao/Visualiza/34"><!--Suecia-->
+                            <AREA SHAPE=RECT COORDS="197,2,253,37" href="../Selecao/Visualiza/20"><!--Holanda-->
+                            <AREA SHAPE=RECT COORDS="257,2,315,37" href="../Selecao/Visualiza/5"><!--Inglaterra-->
+                            <AREA SHAPE=RECT COORDS="323,2,379,35" href="../Selecao/Visualiza/24"><!--Paraguai-->
+                            <AREA SHAPE=RECT COORDS="387,2,445,36" href="../Selecao/Visualiza/16"><!--Alemanha-->
+                            <AREA SHAPE=RECT COORDS="450,2,509,35" href="../Selecao/Visualiza/6"><!--Italia-->
+                            <AREA SHAPE=RECT COORDS="516,3,572,35" href="../Selecao/Visualiza/9"><!--Uruguai-->
+                            <AREA SHAPE=RECT COORDS="580,2,638,35" href="../Selecao/Visualiza/2"><!--Espanha-->
+                            <AREA SHAPE=RECT COORDS="643,2,702,35" href="../Selecao/Visualiza/35"><!--Suecia-->
+                            <AREA SHAPE=RECT COORDS="706,2,764,35" href="../Selecao/Visualiza/33"><!--Belgica-->
+                            <AREA SHAPE=RECT COORDS="768,1,827,35" href="../Selecao/Visualiza/1"><!--Brasil-->
+                            <AREA SHAPE=RECT COORDS="836,2,892,37" href="../Selecao/Visualiza/14"><!--Argelia-->
+                            <AREA SHAPE=RECT COORDS="899,2,957,35" href="../Selecao/Visualiza/4"><!--França-->
+                            <AREA SHAPE=RECT COORDS="963,2,1020,36" href="../Selecao/Visualiza/29"><!--Portugal-->
+                        </MAP>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-wrapper main-content clear-fix">
+                <article>
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                </article>
+                <aside class="anunciosMaster">
+                    <h3>Anúncios</h3>
+                    <br />
+                    <asp:DataList ID="DataList1" runat="server" DataKeyField="CODANUN" DataSourceID="ListaAnuncios" Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" RepeatLayout="Flow" RepeatColumns="1" ShowFooter="False" ShowHeader="False" Width="300px">
+                        <AlternatingItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" ForeColor="Black" />
+                        <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" ForeColor="Black" />
+                        <ItemTemplate>
+                            <div class="fonteAnuncio">
+                                <%--<asp:Label runat="server" ToolTip="Imagem  do Anuncio." Height="100px" />--%>
+                                <asp:Image ImageUrl="../../Images/Penguins.jpg" runat="server" CssClass="ImgAnuncio" />
+                                <div class="BlocoAnuncio">
+                                    <asp:Label ID="TITULOANUNLabel" CssClass="Titulo" runat="server" ToolTip="Titulo do Anúncio." Text='<%# Eval("TITULOANUN") %>' />
+                                    <asp:Label ID="DCRANUNLabel" CssClass="texto" runat="server" ToolTip="Descrição do Anúncio." Text='<%# Eval("DCRANUN") %>' />
+                                </div>
+                            </div>
+                        </ItemTemplate>
+                    </asp:DataList>
+                    <asp:EntityDataSource ID="ListaAnuncios" runat="server" ConnectionString="name=BrazucasEntities" DefaultContainerName="BrazucasEntities" EnableFlattening="False" EntitySetName="ANUNCIOS">
+                    </asp:EntityDataSource>
+                </aside>
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; <%: DateTime.Now.Year %> - Portal da Copa do Mundo no Brasil</p>
+                </div>
+            </div>
+        </footer>
+
+        <%: Scripts.Render("~/bundles/jquery") %>
+        <asp:ContentPlaceHolder ID="ScriptsSection" runat="server" />
+    </form>
+</body>
+</html>
